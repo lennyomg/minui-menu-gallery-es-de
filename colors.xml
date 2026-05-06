@@ -10,6 +10,7 @@
          <backgroundCropPos-4-3>0.5 0.5</backgroundCropPos-4-3>
          <backgroundPath-3-2>${spacerImage}</backgroundPath-3-2>
          <backgroundCropPos-3-2>0.5 0.5</backgroundCropPos-3-2>
+         
          <backgroundPath-19_5-9>${spacerImage}</backgroundPath-19_5-9>
          <backgroundCropPos-19_5-9>0.5 0.5</backgroundCropPos-19_5-9>
          <backgroundPath-1-1>${spacerImage}</backgroundPath-1-1>

@@ -377,6 +377,60 @@ https://github.com/anthonycaccese/minui-menu-es-de
          </video>
       </view>
    </variant>
+   <!-- Variants: Grid: Steam Gallery (No Help) -->
+   <variant name="
+      gamelist-grid-steamgallery
+      ">
+      <view name="
+         gamelist
+         ">
+         <image name="
+         background
+         ">
+            <visible>false</visible>
+         </image>
+         <grid name="gamelist-grid">
+            <pos>0.0 0.0</pos>
+            <size>1 1</size>
+            <imageType>cover</imageType>
+            <itemScale>1.0</itemScale>
+            <itemSpacing>0.0 0.0</itemSpacing>
+            <fractionalRows>true</fractionalRows>
+            <imageCornerRadius>0.00</imageCornerRadius>
+            <imageFit>cover</imageFit>
+            <unfocusedItemOpacity>0.7</unfocusedItemOpacity>
+            <unfocusedItemSaturation>1</unfocusedItemSaturation>
+            <unfocusedItemDimming>0.7</unfocusedItemDimming>
+            <textColor>${textlistUnselectedColor}</textColor>
+         </grid>
+         <text name="game-name">
+            <origin>0.5 1</origin>
+            <pos>0.5 0.93</pos>
+            <metadata>name</metadata>
+            <fontPath>${textlistFont}</fontPath>
+            <fontSize>${listFontSize}</fontSize>
+            <color>${systemstatusColor}</color>
+            <systemNameSuffix>false</systemNameSuffix>
+            <zIndex>100</zIndex>
+            <opacity>1</opacity>
+            <backgroundColor>${systemstatusBackgroundColor}</backgroundColor>
+            <backgroundMargins>0.02 0.02</backgroundMargins>
+            <backgroundCornerRadius>0.01</backgroundCornerRadius>
+         </text>
+         <helpsystem name="
+            help-system-view-left,
+            help-gamelist-view-left,
+            help-system-view-right,
+            help-gamelist-view-right,
+            help-system-view-left,
+            help-gamelist-view-left,
+            help-system-view-right,
+            help-gamelist-view-right
+            ">
+            <scope>none</scope>
+         </helpsystem>
+      </view>
+   </variant>
 
    <!--
    ///

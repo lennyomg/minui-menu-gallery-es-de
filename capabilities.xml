@@ -1,6 +1,6 @@
 <themeCapabilities>
    
-   <themeName>MinUI Menu</themeName>
+   <themeName>MinUI</themeName>
 
    <!--
    ///
@@ -138,6 +138,7 @@
       <override>
          <trigger>noMedia</trigger>
          <mediaType>physicalmedia</mediaType>
+         
          <useVariant>gamelist-list</useVariant>
       </override>
    </variant>
@@ -158,6 +159,10 @@
          <mediaType>marquee</mediaType>
          <useVariant>gamelist-list</useVariant>
       </override>
+   </variant>
+   <variant name="gamelist-grid-steamgallery">
+      <label>Grid: Steam Gallery (No Help)</label>
+      <selectable>true</selectable>
    </variant>
 
 </themeCapabilities>

@@ -166,5 +166,19 @@ based on 1040x480
          </video>
       </view>
    </variant>
+   <!-- Variants: Gallery -->
+   <variant name="
+      gamelist-grid-steamgallery
+      ">
+      <view name="
+         gamelist
+         ">
+         <grid name="
+            gamelist-grid
+            ">
+            <itemSize>0.2 0.505</itemSize>
+         </grid>
+      </view>
+   </variant>
 
 </theme>
