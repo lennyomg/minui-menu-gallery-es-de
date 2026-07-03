@@ -383,6 +383,7 @@ https://github.com/lennyomg/minui-menu-es-de-gallery
    <!-- Variants: Grid: Steam Gallery (No Help) -->
    <variant name="
       gamelist-grid-steamgallery
+      gamelist-grid-steamgallery_sq
       ">
       <view name="
          gamelist
@@ -399,11 +400,11 @@ https://github.com/lennyomg/minui-menu-es-de-gallery
             <itemScale>1.0</itemScale>
             <itemSpacing>0.0 0.0</itemSpacing>
             <fractionalRows>true</fractionalRows>
-            <imageCornerRadius>0.00</imageCornerRadius>
+            <imageCornerRadius>0.000</imageCornerRadius>
             <imageFit>cover</imageFit>
-            <unfocusedItemOpacity>0.7</unfocusedItemOpacity>
-            <unfocusedItemSaturation>1</unfocusedItemSaturation>
-            <unfocusedItemDimming>0.7</unfocusedItemDimming>
+            <unfocusedItemOpacity>0.8</unfocusedItemOpacity>
+            <unfocusedItemSaturation>0.9</unfocusedItemSaturation>
+            <unfocusedItemDimming>0.6</unfocusedItemDimming>
             <textColor>${textlistUnselectedColor}</textColor>
          </grid>
          <text name="game-name">
@@ -489,6 +490,9 @@ https://github.com/lennyomg/minui-menu-es-de-gallery
    </aspectRatio>
    <aspectRatio name="5:3_vertical">
       <include>./aspect-ratio-5-3-vert.xml</include>
+   </aspectRatio>
+   <aspectRatio name="8:7">
+      <include>./aspect-ratio-8-7.xml</include>
    </aspectRatio>
 
 </theme>

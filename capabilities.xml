@@ -14,6 +14,7 @@
    <aspectRatio>19.5:9</aspectRatio>
    <aspectRatio>1:1</aspectRatio>
    <aspectRatio>5:3_vertical</aspectRatio>
+   <aspectRatio>8:7</aspectRatio>
 
    <!--
    ///
@@ -161,7 +162,11 @@
       </override>
    </variant>
    <variant name="gamelist-grid-steamgallery">
-      <label>Grid: Steam Gallery (No Help)</label>
+      <label>Grid: Steam Gallery 2:3 (No Help)</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="gamelist-grid-steamgallery_sq">
+      <label>Grid: Steam Gallery 1:1 (No Help)</label>
       <selectable>true</selectable>
    </variant>
 

@@ -211,5 +211,19 @@ based on 288x480
          </grid>
       </view>
    </variant>
+   <!-- Variants: Gallery 1:1 -->
+   <variant name="
+      gamelist-grid-steamgallery_sq
+      ">
+      <view name="
+         gamelist
+         ">
+         <grid name="
+            gamelist-grid
+            ">
+            <itemSize>0.33 0.198</itemSize>
+         </grid>
+      </view>
+   </variant>
 
 </theme>
